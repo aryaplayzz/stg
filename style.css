@@ -11,9 +11,10 @@ body {
 }
 
 .facepic {
-    width: 100%; /* You can adjust the width as needed */
+    width: 300px; /* You can adjust the width as needed */
     height: auto; /* This maintains the aspect ratio of the image */
-    display: block;
+    display: inline-block;
+    margin-right: 10px; /* Adjust the margin to add spacing between images */
 }
 
 
