@@ -10,6 +10,12 @@ body {
     text-align: center;
 }
 
+.facepic {
+    width: 100%; /* You can adjust the width as needed */
+    height: auto; /* This maintains the aspect ratio of the image */
+    display: block;
+}
+
 
 @keyframes rotateIn {
     0% {
