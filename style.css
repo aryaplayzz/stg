@@ -8,6 +8,7 @@ body {
 .section-list {
     color: white;
     text-align: center;
+    font-size: 20px;
 }
 
 .facepic {
@@ -166,9 +167,15 @@ body {
 .centered-link {
     display: block;
     text-align: center;
-    margin-bottom: 1em; /* Optional: Adjust margin as needed */
+    margin-bottom: 2em; /* Optional: Adjust margin as needed */
+    font-size: 25px;
+    color: white; /* Change the color to your desired value */
+    text-decoration: none; /* Remove underline */
 }
 
+.centered-link:hover {
+    color: green; /* Change the color on hover to your desired value */
+}
 
 
 #padding {
@@ -180,11 +187,13 @@ body {
 .section-title {
     color: green;
     text-align: center;
+    font-size: 30px;
 }
 
 .section-description {
     color: white;
     text-align: center;
+    font-size: 20px;
 }
 
 .main-footer {
