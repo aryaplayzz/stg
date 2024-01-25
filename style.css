@@ -73,7 +73,16 @@ body {
 
 
 
+.center-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.center-pic {
+    width: 1300px; /* Adjust the width to your desired size */
+    height: auto; /* Maintain aspect ratio */
+}
 
 
 .header {
