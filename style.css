@@ -173,7 +173,7 @@ body {
     text-decoration: none; /* Remove underline */
 }
 
-.centered-link:hover {
+.centered-link:hover { 
     color: green; /* Change the color on hover to your desired value */
 }
 
