@@ -162,6 +162,21 @@ body {
     animation: fadeIn 2s ease-in-out;
 }
 
+
+.centered-link {
+    display: block;
+    text-align: center;
+    margin-bottom: 1em; /* Optional: Adjust margin as needed */
+}
+
+
+
+#padding {
+    display: block;
+    margin: 10px 0; /* Adjust margin as needed */
+}
+
+
 .section-title {
     color: green;
     text-align: center;
