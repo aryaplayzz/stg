@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #202020;
+    background: #FFFFFF;
 }
 
 .section-list {
-    color: white;
+    color: #0B9A6D;
     text-align: center;
     font-size: 20px;
 }
@@ -87,35 +87,35 @@ body {
 
 
 .header {
-    background: #232323;
-    color: green;
+    background: #18453B;
+    color: grey;
     padding: 2em;
     text-align: center;
 }
 
 .header-title {
-    color: green;
+    color: #FFFFFF;
     text-align: center;
 }
 
 .header-description {
-    color: green;
+    color: #FFFFFF;
     text-align: center;
 }
 
 .main-nav {
-    background-color: #333;
-    color: #333;
+    background-color: white; /* Gradient from green to white */
+    color: white;
     padding: 1em;
     text-align: center;
     display: flex;
     justify-content: center;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid white;
     animation: pulse 1.5s normal;
 }
 
 .nav-link {
-    color: #fff;
+    color: #0B9A6D;
     text-decoration: none;
     padding: 0.5em 1em;
     margin: 0 1em;
@@ -124,7 +124,7 @@ body {
 }
 
 .nav-link:hover {
-    background-color: #45a049;
+    background-color: #636363;
 }
 
 .logo {
@@ -157,9 +157,8 @@ body {
 .main-section {
     padding: 5em;
     margin: 5em 0;
-    background-color: #232323;
+    background: linear-gradient(to center, #5FAE57, white); /* Gradient from green to white */
     border-radius: 75px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     animation: fadeIn 2s ease-in-out;
 }
 
@@ -169,7 +168,7 @@ body {
     text-align: center;
     margin-bottom: 2em; /* Optional: Adjust margin as needed */
     font-size: 25px;
-    color: white; /* Change the color to your desired value */
+    color: grey; /* Change the color to your desired value */
     text-decoration: none; /* Remove underline */
 }
 
@@ -185,21 +184,24 @@ body {
 
 
 .section-title {
-    color: green;
+    color: #3b3b3b;
     text-align: center;
     font-size: 30px;
 }
 
 .section-description {
-    color: white;
+    color: #636363;
     text-align: center;
     font-size: 20px;
 }
 
 .main-footer {
-    background: #333;
-    color: green;
+    background: #18453B;
+    color: #FFFFFF;
     padding: 1em;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
