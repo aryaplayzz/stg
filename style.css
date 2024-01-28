@@ -1,3 +1,9 @@
+/* CLASSES */
+
+
+
+/* ----------------------------------------------------------- this stuff is for the index.html ----------------------------------*/
+
 .intro-body {
     margin: 0;
     overflow: hidden;
@@ -27,6 +33,197 @@
     transition: opacity 0.5s, transform 0.5s;
 }
 
+
+
+/* ----------------------------------------------------------- this stuff is for the middle section of the website ----------------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+}
+
+.section-list {
+    color: #0B9A6D;
+    text-align: center;
+    font-size: 20px;
+}
+
+.facepic {
+    width: 300px; /* You can adjust the width as needed */
+    height: auto; /* This maintains the aspect ratio of the image */
+    display: inline-block;
+    margin-right: 10px; /* Adjust the margin to add spacing between images */
+}
+
+
+
+/* ----------------------------------------------------------- this stuff is to make the pictures in the center of the screen ----------------------------------*/
+.center-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-pic {
+    width: 1300px; /* Adjust the width to your desired size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* ----------------------------------------------------------- this stuff is the edit the header text ----------------------------------*/
+.header {
+    background: #18453B;
+    color: grey;
+    padding: 2em;
+    text-align: center;
+}
+
+.header-title {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.header-description {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+/* ----------------------------------------------------------- this stuff is the navigation ----------------------------------*/
+.main-nav {
+    background-color: white; /* Gradient from green to white */
+    color: white;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    animation: pulse 1.5s normal;
+}
+
+.nav-link {
+    color: #0B9A6D;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #636363;
+}
+
+
+
+/* --------------------------------------------------- this stuff is for the logo at the top left and right of the screen (in the header) ----------------------------------*/
+
+.logo {
+    width: 100px; /* Adjust the width to your desired size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.custom-divRight {
+    position: absolute;
+    top: 10px; /* Distance from the top */
+    right: 50px; /* Distance from the right */
+}
+
+.custom-divRight img {
+    width: 100px; /* Adjust the width to your desired size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.custom-divLeft {
+    position: absolute;
+    top: 10px; /* Distance from the top */
+    left: 50px; /* Distance from the right */
+}
+
+.custom-divLeft img {
+    width: 100px; /* Adjust the width to your desired size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+/* --------------------------------------------------- this stuff is the animation for fade in ----------------------------------*/
+.main-section {
+    padding: 5em;
+    margin: 5em 0;
+    border-radius: 75px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* --------------------------------------------------- this stuff is to make the links in the center of the screen ----------------------------------*/
+.centered-link {
+    display: block;
+    text-align: center;
+    margin-bottom: 2em; /* Optional: Adjust margin as needed */
+    font-size: 25px;
+    color: grey; /* Change the color to your desired value */
+    text-decoration: none; /* Remove underline */
+}
+
+.centered-link:hover { 
+    color: green; /* Change the color on hover to your desired value */
+}
+
+/* --------------------------------------------------- this stuff is for the text in the body paragraphs----------------------------------*/
+.section-title {
+    color: #3b3b3b;
+    text-align: center;
+    font-size: 30px;
+}
+
+.section-description {
+    color: #636363;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+/* --------------------------------------------------- this stuff is for the footer stuff ----------------------------------*/
+.main-footer {
+    background: #18453B;
+    color: #FFFFFF;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ID */
+/* --------------------------------------------------- this stuff is for spacing ----------------------------------*/
+#padding {
+    display: block;
+    margin: 10px 0; /* Adjust margin as needed */
+}
+
+
+
+/* KEYFRAMES */
+/* ----------------------------------------------------------- this stuff is the animations use for nav and body ----------------------------------*/
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
 /* Keyframe animation for letter pop-up */
 @keyframes popUp {
     from {
@@ -40,7 +237,8 @@
 }
 
 
-
+/* idk what this is LOL */
+/* --------------------------------------------------- this stuff is for index.html (makes the letters pop out slowly and seperately ----------------------------------*/
 /* Apply animation delay to each letter */
 .intro-text span:nth-child(1) { animation: popUp 0.5s ease-out both 0.1s; }
 .intro-text span:nth-child(2) { animation: popUp 0.5s ease-out both 0.3s; }
@@ -95,212 +293,3 @@
 .intro-text span:nth-child(51) { animation: popUp 0.5s ease-out both 5.1s; }
 .intro-text span:nth-child(52) { animation: popUp 0.5s ease-out both 5.3s; }
 .intro-text span:nth-child(53) { animation: popUp 0.5s ease-out both 5.5s; }
-
-
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #FFFFFF;
-}
-
-.section-list {
-    color: #0B9A6D;
-    text-align: center;
-    font-size: 20px;
-}
-
-.facepic {
-    width: 300px; /* You can adjust the width as needed */
-    height: auto; /* This maintains the aspect ratio of the image */
-    display: inline-block;
-    margin-right: 10px; /* Adjust the margin to add spacing between images */
-}
-
-
-@keyframes rotateIn {
-    0% {
-        transform: rotate(-180deg);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-20px);
-    }
-    60% {
-        transform: translateY(-10px);
-    }
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes pulse {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-}
-
-@keyframes bounceIn {
-    0% {
-        transform: translateY(-500px);
-        opacity: 0;
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-
-
-.center-pic-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.center-pic {
-    width: 1300px; /* Adjust the width to your desired size */
-    height: auto; /* Maintain aspect ratio */
-}
-
-
-.header {
-    background: #18453B;
-    color: grey;
-    padding: 2em;
-    text-align: center;
-}
-
-.header-title {
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.header-description {
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.main-nav {
-    background-color: white; /* Gradient from green to white */
-    color: white;
-    padding: 1em;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    border-bottom: 2px solid white;
-    animation: pulse 1.5s normal;
-}
-
-.nav-link {
-    color: #0B9A6D;
-    text-decoration: none;
-    padding: 0.5em 1em;
-    margin: 0 1em;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.nav-link:hover {
-    background-color: #636363;
-}
-
-.logo {
-    width: 100px; /* Adjust the width to your desired size */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.custom-divRight {
-    position: absolute;
-    top: 10px; /* Distance from the top */
-    right: 50px; /* Distance from the right */
-}
-
-.custom-divRight img {
-    width: 100px; /* Adjust the width to your desired size */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.custom-divLeft {
-    position: absolute;
-    top: 10px; /* Distance from the top */
-    left: 50px; /* Distance from the right */
-}
-
-.custom-divLeft img {
-    width: 100px; /* Adjust the width to your desired size */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.main-section {
-    padding: 5em;
-    margin: 5em 0;
-    background: linear-gradient(to center, #5FAE57, white); /* Gradient from green to white */
-    border-radius: 75px;
-    animation: fadeIn 2s ease-in-out;
-}
-
-
-.centered-link {
-    display: block;
-    text-align: center;
-    margin-bottom: 2em; /* Optional: Adjust margin as needed */
-    font-size: 25px;
-    color: grey; /* Change the color to your desired value */
-    text-decoration: none; /* Remove underline */
-}
-
-.centered-link:hover { 
-    color: green; /* Change the color on hover to your desired value */
-}
-
-
-#padding {
-    display: block;
-    margin: 10px 0; /* Adjust margin as needed */
-}
-
-
-.section-title {
-    color: #3b3b3b;
-    text-align: center;
-    font-size: 30px;
-}
-
-.section-description {
-    color: #636363;
-    text-align: center;
-    font-size: 20px;
-}
-
-.main-footer {
-    background: #18453B;
-    color: #FFFFFF;
-    padding: 1em;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
