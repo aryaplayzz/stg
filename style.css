@@ -19,7 +19,7 @@
 }
 
 .intro-text {
-    font-size: 4em;
+    font-size: 2em;
     color: #18453B;
     margin: 0;
     padding: 20px;
@@ -204,7 +204,7 @@ body {
     }
 
     .intro-text {
-        font-size: 0.5em;
+        font-size: 1em;
     }
 
     .logo,
