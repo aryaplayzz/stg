@@ -201,17 +201,15 @@ body {
     .section-description {
         font-size: 16px;
     }
+    .intro-text {
+        font-size: 1.5em;
+    }
 }
 
 /* Media query for smaller screens */
 @media only screen and (max-width: 480px) {
     .facepic {
         width: 150px;
-    }
-
-    .custom-divRight,
-    .custom-divLeft {
-        width: 30px;
     }
 
     .main-section {
@@ -230,6 +228,22 @@ body {
 
     .section-description {
         font-size: 14px;
+    }
+    .intro-text {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+
+    .custom-divLeft,
+    .custom-divRight {
+        top: 5px;
+        left: 5px;
+        right: 5px;
+    }
+
+    .logo, .custom-divRight img, .custom-divLeft img {
+        width: 60px;
     }
 }
 
