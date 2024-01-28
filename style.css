@@ -19,7 +19,7 @@
 }
 
 .intro-text {
-    font-size: 2em;
+    font-size: 1em;
     color: #18453B;
     margin: 0;
     padding: 20px;
@@ -176,7 +176,7 @@ body {
 
 
 /* Small devices (phones) */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 420px) {
     /* Styles for smaller screens */
     .facepic {
         width: 150px;
@@ -208,7 +208,64 @@ body {
     }
 
     .intro-text {
-        font-size: 1em;
+        font-size: 0.5em;
+    }
+
+    .logo,
+    .custom-divRight img,
+    .custom-divLeft img {
+        width: 40px;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link {
+        margin: 0.5em 0;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    /* Styles for table screens */
+    .facepic {
+        width: 150px;
+    }
+
+    .main-section {
+        padding: 0.5em;
+        margin: 0.5em 0;
+        border-radius: 10px;
+    }
+
+    .custom-divLeft,
+    .custom-divRight {
+        top: 5px;
+        left: 5px;
+        right: 5px;
+    }
+
+    .centered-link {
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .section-description {
+        font-size: 14px;
+    }
+
+    .intro-text {
+        font-size: 2em;
     }
 
     .logo,
