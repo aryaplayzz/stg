@@ -247,6 +247,17 @@ body {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .nav-link {
+        margin: 0.5em 0; /* Add space between links in mobile view */
+    }
+}
+
 /* Rest of your existing CSS code ... */
 
 
