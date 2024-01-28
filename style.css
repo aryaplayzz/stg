@@ -178,16 +178,15 @@ body {
     .facepic {
         width: 200px;
     }
-
-    .custom-divRight,
-    .custom-divLeft {
-        width: 40px;
-    }
-
     .main-section {
         padding: 1em;
         margin: 1em 0;
         border-radius: 15px;
+    }
+
+    .custom-divRight,
+    .custom-divLeft {
+        width: 40px;
     }
 
     .centered-link {
@@ -202,8 +201,13 @@ body {
         font-size: 16px;
     }
     .intro-text {
-        font-size: 1.5em;
+        font-size: 1.2em;
+        padding: 10px;
     }
+    .logo, .custom-divRight img, .custom-divLeft img {
+        width: 60px;
+    }
+
     .main-nav {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items horizontally */
@@ -226,6 +230,13 @@ body {
         border-radius: 10px;
     }
 
+    .custom-divLeft,
+    .custom-divRight {
+        top: 5px;
+        left: 5px;
+        right: 5px;
+    }
+
     .centered-link {
         font-size: 16px;
     }
@@ -237,22 +248,16 @@ body {
     .section-description {
         font-size: 14px;
     }
+
     .intro-text {
         font-size: 1.2em;
         padding: 10px;
     }
-
-
-    .custom-divLeft,
-    .custom-divRight {
-        top: 5px;
-        left: 5px;
-        right: 5px;
-    }
-
     .logo, .custom-divRight img, .custom-divLeft img {
         width: 60px;
     }
+
+
     .main-nav {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items horizontally */
@@ -264,6 +269,44 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    .facepic {
+        width: 150px;
+    }
+
+    .main-section {
+        padding: 0.5em;
+        margin: 0.5em 0;
+        border-radius: 10px;
+    }
+
+    .custom-divLeft,
+    .custom-divRight {
+        top: 5px;
+        left: 5px;
+        right: 5px;
+    }
+
+    .centered-link {
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .section-description {
+        font-size: 14px;
+    }
+
+    .intro-text {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+    .logo, .custom-divRight img, .custom-divLeft img {
+        width: 60px;
+    }
+
+
     .main-nav {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items horizontally */
