@@ -4,6 +4,7 @@
 
 /* ----------------------------------------------------------- this stuff is for the index.html ----------------------------------*/
 
+/* Default styles for larger screens */
 .intro-body {
     margin: 0;
     overflow: hidden;
@@ -22,8 +23,8 @@
     color: #18453B;
     margin: 0;
     padding: 20px;
-    white-space: nowrap; /* Ensure letters don't wrap to a new line */
-    overflow: hidden;    /* Hide overflow letters */
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .intro-text span {
@@ -33,15 +34,10 @@
     transition: opacity 0.5s, transform 0.5s;
 }
 
-
 /* Media query for medium-sized screens */
 @media only screen and (max-width: 768px) {
     .intro-text {
         font-size: 1.5em;
-    }
-
-    .facepic {
-        width: 200px;
     }
 
     /* Add more adjustments for other elements as needed */
@@ -58,8 +54,6 @@
         width: 150px;
     }
 
-    /* Adjust other styles for smaller screens */
-
     .custom-divLeft,
     .custom-divRight {
         top: 5px;
@@ -73,6 +67,8 @@
 
     /* Add more adjustments for other elements as needed */
 }
+
+/* Rest of your existing CSS code ... */
 
 
 
