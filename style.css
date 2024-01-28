@@ -34,6 +34,47 @@
 }
 
 
+/* Media query for medium-sized screens */
+@media only screen and (max-width: 768px) {
+    .intro-text {
+        font-size: 1.5em;
+    }
+
+    .facepic {
+        width: 200px;
+    }
+
+    /* Add more adjustments for other elements as needed */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 480px) {
+    .intro-text {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    .facepic {
+        width: 150px;
+    }
+
+    /* Adjust other styles for smaller screens */
+
+    .custom-divLeft,
+    .custom-divRight {
+        top: 5px;
+        left: 5px;
+        right: 5px;
+    }
+
+    .logo, .custom-divRight img, .custom-divLeft img {
+        width: 60px;
+    }
+
+    /* Add more adjustments for other elements as needed */
+}
+
+
 
 /* ----------------------------------------------------------- this stuff is for the middle section of the website ----------------------------------*/
 body {
