@@ -98,7 +98,7 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
-    border-bottom: 2px solid white;
+    
     animation: pulse 1.5s normal;
 }
 
@@ -108,11 +108,16 @@ body {
     padding: 0.5em 1em;
     margin: 0 1em;
     border-radius: 5px;
+    border-top: 2px solid #0B9A6D; /* Green border at the top */
+    border-bottom: 2px solid #0B9A6D; /* Green border at the bottom */
+    border-left: 2px solid #0B9A6D; /* Green border on the left */
+    border-right: 2px solid #0B9A6D; /* Green border on the right */
     transition: background-color 0.3s;
 }
 
+
 .nav-link:hover {
-    background-color: #636363;
+    opacity: 60%;
 }
 
 
