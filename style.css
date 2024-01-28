@@ -204,6 +204,14 @@ body {
     .intro-text {
         font-size: 1.5em;
     }
+    .main-nav {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .nav-link {
+        margin: 0.5em 0; /* Add space between links in mobile view */
+    }
 }
 
 /* Media query for smaller screens */
@@ -245,6 +253,14 @@ body {
     .logo, .custom-divRight img, .custom-divLeft img {
         width: 60px;
     }
+    .main-nav {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .nav-link {
+        margin: 0.5em 0; /* Add space between links in mobile view */
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -258,7 +274,7 @@ body {
     }
 }
 
-/* Rest of your existing CSS code ... */
+
 
 
 
