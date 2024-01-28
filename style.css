@@ -201,7 +201,7 @@ body {
         font-size: 16px;
     }
     .intro-text {
-        font-size: 1em;
+        font-size: 0.1em;
         padding: 10px;
     }
     .logo, .custom-divRight img, .custom-divLeft img {
@@ -250,7 +250,7 @@ body {
     }
 
     .intro-text {
-        font-size: 1em;
+        font-size: 0.1em;
         padding: 10px;
     }
     .logo, .custom-divRight img, .custom-divLeft img {
@@ -299,7 +299,7 @@ body {
     }
 
     .intro-text {
-        font-size: 1em;
+        font-size: 0.1em;
         padding: 10px;
     }
     .logo, .custom-divRight img, .custom-divLeft img {
@@ -358,15 +358,15 @@ body {
 /* idk what this is LOL */
 /* --------------------------------------------------- this stuff is for index.html (makes the letters pop out slowly and seperately ----------------------------------*/
 /* Apply animation delay to each letter */
-.intro-text span:nth-child(1) { animation: popUp 0.5s ease-out both 0.1s; }
-.intro-text span:nth-child(2) { animation: popUp 0.5s ease-out both 0.3s; }
-.intro-text span:nth-child(3) { animation: popUp 0.5s ease-out both 0.5s; }
-.intro-text span:nth-child(4) { animation: popUp 0.5s ease-out both 0.7s; }
-.intro-text span:nth-child(5) { animation: popUp 0.5s ease-out both 0.9s; }
-.intro-text span:nth-child(6) { animation: popUp 0.5s ease-out both 1.1s; }
-.intro-text span:nth-child(7) { animation: popUp 0.5s ease-out both 1.3s; }
-.intro-text span:nth-child(8) { animation: popUp 0.5s ease-out both 1.5s; }
-.intro-text span:nth-child(9) { animation: popUp 0.5s ease-out both 1.7s; }
+.intro-text span:nth-child(1)  { animation: popUp 0.5s ease-out both 0.1s; }
+.intro-text span:nth-child(2)  { animation: popUp 0.5s ease-out both 0.3s; }
+.intro-text span:nth-child(3)  { animation: popUp 0.5s ease-out both 0.5s; }
+.intro-text span:nth-child(4)  { animation: popUp 0.5s ease-out both 0.7s; }
+.intro-text span:nth-child(5)  { animation: popUp 0.5s ease-out both 0.9s; }
+.intro-text span:nth-child(6)  { animation: popUp 0.5s ease-out both 1.1s; }
+.intro-text span:nth-child(7)  { animation: popUp 0.5s ease-out both 1.3s; }
+.intro-text span:nth-child(8)  { animation: popUp 0.5s ease-out both 1.5s; }
+.intro-text span:nth-child(9)  { animation: popUp 0.5s ease-out both 1.7s; }
 .intro-text span:nth-child(10) { animation: popUp 0.5s ease-out both 1.9s; }
 .intro-text span:nth-child(11) { animation: popUp 0.5s ease-out both 2.1s; }
 .intro-text span:nth-child(12) { animation: popUp 0.5s ease-out both 2.3s; }
