@@ -19,7 +19,7 @@
 }
 
 .intro-text {
-    font-size: 1em;
+    font-size: 2em;
     color: #18453B;
     margin: 0;
     padding: 20px;
@@ -176,64 +176,38 @@ body {
 
 
 
-
-
-
-
-
-@media only screen and (min-width: 768px) {
-    /* Styles for table screens */
-    .facepic {
-        width: 150px;
+/* For Mobile Devices – 320px — 480px */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* Your styles for mobile devices go here */
+    .intro-text {
+        font-size: .5em;
     }
-
-    .main-section {
-        padding: 0.5em;
-        margin: 0.5em 0;
-        border-radius: 10px;
-    }
-
-    .custom-divLeft,
-    .custom-divRight {
-        top: 5px;
-        left: 5px;
-        right: 5px;
-    }
-
-    .centered-link {
-        font-size: 16px;
-    }
-
-    .section-title {
-        font-size: 20px;
-    }
-
-    .section-description {
-        font-size: 14px;
-    }
-
+  }
+  
+  /* iPads and Tablets – 481px — 768px */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* Your styles for iPads and tablets go here */
+    .intro-text {
+        font-size: 1em;
+  }
+}
+  
+  /* Laptops and small screens – 769px — 1024px */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Your styles for laptops and small screens go here */
     .intro-text {
         font-size: 2em;
-    }
-
-    .logo,
-    .custom-divRight img,
-    .custom-divLeft img {
-        width: 40px;
-    }
-
-    .main-nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-link {
-        margin: 0.5em 0;
-    }
-}
-
-
-
+  }
+  }
+  
+  /* Large screens and Desktops – 1025px — 1200px */
+  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    /* Your styles for large screens and desktops go here */
+    .intro-text {
+        font-size: 2em;
+  }
+  }
+  
 
 
 
