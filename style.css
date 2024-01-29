@@ -182,14 +182,33 @@ body {
     .intro-text {
         font-size: 75%;
     }
-  }
+    .main-nav {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .nav-link {
+        margin: 0.5em 0; /* Add some spacing between links */
+    }
+}
+
+
   
   /* iPads and Tablets – 481px — 768px */
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     /* Your styles for iPads and tablets go here */
     .intro-text {
         font-size: 75%;
-  }
+    }
+    .main-nav {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .nav-link {
+        margin: 0.5em 0; /* Add some spacing between links */
+    }
+  
 }
   
   /* Laptops and small screens – 769px — 1024px */
@@ -198,6 +217,15 @@ body {
     .intro-text {
         font-size: 100%;
   }
+    .main-nav {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .nav-link {
+        margin: 0.5em 0; /* Add some spacing between links */
+    }
+  
   }
   
   /* Large screens and Desktops – 1025px — 1200px */
@@ -206,7 +234,18 @@ body {
     .intro-text {
         font-size: 100%;
   }
-  }
+
+    .main-nav {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .nav-link {
+        margin: 0.5em 0; /* Add some spacing between links */
+    }
+
+
+}
   
 
 
