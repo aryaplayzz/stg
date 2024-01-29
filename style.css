@@ -164,9 +164,17 @@ body {
     padding: 1em;
     text-align: center;
     position: fixed;
-    bottom: 0;
+    bottom: 0; /* Set the footer at the bottom */
     width: 100%;
+    display: none; /* Initially hide the footer */
 }
+
+/* Show the footer when at the bottom of the page */
+body.show-footer .main-footer {
+    display: block;
+}
+
+
 
 #padding {
     display: block;
