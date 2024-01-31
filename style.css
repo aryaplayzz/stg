@@ -167,15 +167,6 @@ body {
     font-size: 18px; /* Adjust font size for smaller screens */
 }
 
-.main-footer {
-    background: #18453B;
-    color: #FFFFFF;
-    padding: 1em;
-    text-align: center;
-    position: fixed;
-    bottom: 0; /* Set the footer at the bottom */
-    width: 100%;
-}
 
 .bottom-text {
     background: #18453B;
