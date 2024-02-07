@@ -17,7 +17,7 @@
 
 
 div.polaroid {
-    width: 80%;
+    width: 20%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 0 auto 25px; /* Center the div horizontally and add margin-bottom */
@@ -28,7 +28,7 @@ div.polaroid img {
     margin: 0 auto; /* Center the image horizontally */
 }
   
-  div.container {
+div.container {
     text-align: center;
     padding: 10px 20px;
 }
@@ -242,7 +242,7 @@ body {
         margin: 0.5em 0; /* Add some spacing between links */
     }
     div.polaroid {
-        width: 60%;
+        width: 10%;
     }
   
   }
