@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 setTimeout(() => {
                     // Call a function to navigate to the next page
                     navigateToNextPage();
-                }, 5500); // Adjust the delay as needed
+                }, 3800); // Adjust the delay as needed
             }
         }, 100 * index);
     });
