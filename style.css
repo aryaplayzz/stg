@@ -335,9 +335,23 @@ body {
     animation: popUp 0.5s ease-out both calc(0.1s + 0.15s * var(--index));
 }
 
-#skipInstruction {
+#skipButton {
     position: fixed;
     bottom: 10px;
     left: 10px;
     font-size: 12px; /* Adjust the font size as needed */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Larger font size */
+    cursor: pointer; /* Cursor style on hover */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
+    transition: background-color 0.3s; /* Smooth background color transition */
 }
+
+#skipButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
