@@ -24,3 +24,30 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = 'main.html'; // Change 'main.html' to your desired next page
     }
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const introText = document.getElementById('introText');
+    const skipButton = document.getElementById('skipButton');
+
+    // Function to skip animation and proceed to the next page
+    function skipAnimation() {
+        introText.style.animation = 'none';
+        navigateToNextPage();
+    }
+
+    // Event listener for space bar keypress
+    document.addEventListener('keydown', function(event) {
+        if (event.code === 'Space') {
+            skipAnimation();
+        }
+    });
+
+    // Event listener for skip button click
+    skipButton.addEventListener('click', skipAnimation);
+
+    // Function to navigate to the next page
+    function navigateToNextPage() {
+        window.location.href = 'main.html'; // Change 'main.html' to your desired next page
+    }
+});

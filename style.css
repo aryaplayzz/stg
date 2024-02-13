@@ -311,5 +311,5 @@ body {
 /* --------------------------------------------------- this stuff is for index.html (makes the letters pop out slowly and seperately ----------------------------------*/
 .intro-text span {
     --index: 0;
-    animation: popUp 0.5s ease-out both calc(0.1s + 0.2s * var(--index));
+    animation: popUp 0.5s ease-out both calc(0.1s + 0.15s * var(--index));
 }
