@@ -203,6 +203,11 @@ body {
     div.polaroid {
         width: 50%;
     }
+    #skipInstruction {
+        bottom: 5px; /* Adjust the bottom spacing for smaller screens */
+        left: 5px; /* Adjust the left spacing for smaller screens */
+        font-size: 1px; /* Adjust the font size for smaller screens */
+    }
 }
 
 
@@ -224,6 +229,11 @@ body {
     div.polaroid {
         width: 50%;
     }
+    #skipInstruction {
+        bottom: 10px; /* Adjust the bottom spacing for smaller screens */
+        left: 10px; /* Adjust the left spacing for smaller screens */
+        font-size: 5px; /* Adjust the font size for smaller screens */
+    }
   
 }
   
@@ -243,6 +253,11 @@ body {
     }
     div.polaroid {
         width: 10%;
+    }
+    #skipInstruction {
+        bottom: 10px; /* Adjust the bottom spacing for smaller screens */
+        left: 10px; /* Adjust the left spacing for smaller screens */
+        font-size: 5px; /* Adjust the font size for smaller screens */
     }
   
   }
@@ -264,6 +279,12 @@ body {
     }
     div.polaroid {
         width: 70%;
+    }
+
+    #skipInstruction {
+        bottom: 20px; /* Adjust the bottom spacing for smaller screens */
+        left: 20px; /* Adjust the left spacing for smaller screens */
+        font-size: 10px; /* Adjust the font size for smaller screens */
     }
 
 
@@ -312,4 +333,11 @@ body {
 .intro-text span {
     --index: 0;
     animation: popUp 0.5s ease-out both calc(0.1s + 0.15s * var(--index));
+}
+
+#skipInstruction {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-size: 12px; /* Adjust the font size as needed */
 }
