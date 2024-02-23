@@ -355,3 +355,31 @@ body {
     background-color: #45a049; /* Darker green on hover */
 }
 
+
+
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-box {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #18453B;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

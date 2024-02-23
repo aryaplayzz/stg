@@ -51,3 +51,4 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = 'main.html'; // Change 'main.html' to your desired next page
     }
 });
+
