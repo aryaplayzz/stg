@@ -27,6 +27,8 @@ document.querySelectorAll('.service-box').forEach(box => {
             case 'dev':
                 window.location.href = 'dev.html'; // Redirect to dev page
                 break;
+            case 'aidan':
+                window.location.href = 'aidan.html'; // Redirect to aidan page
             default:
                 console.error('Service not found');
         }
