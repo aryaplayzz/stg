@@ -122,6 +122,7 @@ body {
     border-radius: 5px;
     transition: background-color 0.3s;
     border: 2px solid #0B9A6D; /* Add this line to set green borders */
+    text-align: center;
 
 }
 
