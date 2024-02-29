@@ -194,10 +194,12 @@ body {
     }
     .main-nav {
         flex-direction: column; /* Stack items vertically */
+        text-align: center;
     }
 
     .nav-link {
         margin: 0.5em 0; /* Add some spacing between links */
+        text-align: center;
     }
     div.polaroid {
         width: 50%;
@@ -219,10 +221,12 @@ body {
     }
     .main-nav {
         flex-direction: column; /* Stack items vertically */
+        text-align: center;
     }
 
     .nav-link {
         margin: 0.5em 0; /* Add some spacing between links */
+        text-align: center;
     }
     div.polaroid {
         width: 50%;
@@ -247,6 +251,7 @@ body {
 
     .nav-link {
         margin: 0.5em 0; /* Add some spacing between links */
+        text-align: center;
     }
     div.polaroid {
         width: 10%;
@@ -268,10 +273,12 @@ body {
 
     .main-nav {
         flex-direction: column; /* Stack items vertically */
+        text-align: center;
     }
 
     .nav-link {
         margin: 0.5em 0; /* Add some spacing between links */
+        text-align: center;
     }
     div.polaroid {
         width: 70%;
