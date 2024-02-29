@@ -15,11 +15,16 @@
         <p class="header-description">Your gateway to the world of trading</p>
     </header>
 
-    <nav class="main-nav">
-        <a href="main.html" class="nav-link">Home</a>
-        <a href="info.html" class="nav-link">Info</a>
-        <a href="join.html" class="nav-link">Join</a>
-    </nav>
+    <button class="openBtn" onclick="openNav()">☰ Menu</button>
+
+    <div id="overlayNav" class="overlay">
+        <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="main.html">Home</a>
+            <a href="info.html">Info</a>
+            <a href="join.html">Join</a>
+        </div>
+    </div>
 
     <section class="main-section">
 
@@ -85,6 +90,10 @@
         <p>Learn how to read charts!</p>
         </div>
     </div>
+
+
+    <script src="script.js"></script>
+
 
 
 

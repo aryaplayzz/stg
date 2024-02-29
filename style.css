@@ -379,3 +379,83 @@ h1 {
     border-radius: 5px;
     cursor: pointer;
 }
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0F3B2E;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #ffffff;
+    transform: scale(1.2);
+}
+
+.closeBtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.openBtn {
+    font-size: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #18453B;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+    outline: none;
+    /* Adjusting for top-left corner placement */
+    position: absolute; /* or 'fixed' depending on use case */
+    top: 0;
+    left: 0;
+    transform: translate(0, 0); /* Adjust as needed for exact positioning */
+}
+
+
+.openBtn:hover {
+    background-color: #205B4E;
+}
+
+.openBtn:active {
+    box-shadow: 0 2px #ffffff;
+    transform: translateY(2px);
+}
