@@ -194,7 +194,6 @@ body {
     }
     .main-nav {
         flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
     }
 
     .nav-link {
@@ -220,7 +219,6 @@ body {
     }
     .main-nav {
         flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
     }
 
     .nav-link {
@@ -245,7 +243,6 @@ body {
   }
     .main-nav {
         flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
     }
 
     .nav-link {
@@ -271,7 +268,6 @@ body {
 
     .main-nav {
         flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
     }
 
     .nav-link {
