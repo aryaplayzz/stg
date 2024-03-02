@@ -447,7 +447,7 @@ h1 {
     cursor: pointer;
     background-color: #ffffff;
     color: #18453B;
-    border: none;
+    border: 5px solid grey;
     border-radius: 5px;
     transition: all 0.3s;
     outline: none;
