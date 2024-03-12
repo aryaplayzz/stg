@@ -467,3 +467,34 @@ h1 {
     box-shadow: 0 2px #ffffff;
     transform: translateY(2px);
 }
+
+.center-container {
+    display: flex;
+    flex-direction: column; /* Stacks the children vertically */
+    align-items: center; /* Horizontally centers the children */
+    justify-content: center; /* Vertically centers the children if the container has a specific height */
+    height: 100%; /* Adjust the height as needed, or remove it to fit the content */
+}
+
+.pdf-link {
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    margin: 5px; /* Increase margin for more space between links */
+    text-align: center;
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.pdf-link:hover {
+    transform: scale(1.05);
+    background-color: #e0e0e0;
+}
+
+
+.pdf-link img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 5px;
+}
