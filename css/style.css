@@ -1,0 +1,247 @@
+
+
+/* Default styles for larger screens */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+    grid-template-rows: 1fr auto; /* Last row is the footer */
+    min-height: 100vh; /* Ensure the page takes at least the full height of the viewport */
+    
+}
+
+
+.round-corners {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+}
+
+
+.section-list {
+    color: #0B9A6D;
+    text-align: center;
+    font-size: 20px;
+}
+
+.header {
+    background: #18453B;
+    color: grey;
+    padding: 2em;
+    text-align: center;
+}
+
+.header-title {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.header-description {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.main-nav {
+    background-color: white;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    animation: pulse 1.5s normal;
+}
+
+.nav-link {
+    color: #0B9A6D;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: 2px solid #0B9A6D; /* Add this line to set green borders */
+    text-align: center;
+
+}
+
+.nav-link:hover {
+    opacity: 60%;
+}
+
+
+
+.main-section {
+    padding: 2em;
+    margin: 2em 0;
+    border-radius: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.centered-link {
+    display: block;
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 20px; /* Adjust font size for smaller screens */
+    color: grey;
+    text-decoration: none;
+}
+
+.centered-link:hover {
+    color: green;
+}
+
+.section-title {
+    color: #3b3b3b;
+    text-align: center;
+    font-size: 25px; /* Adjust font size for smaller screens */
+}
+
+.section-description {
+    color: #636363;
+    text-align: center;
+    font-size: 18px; /* Adjust font size for smaller screens */
+}
+
+
+.bottom-text {
+    background: #18453B;
+    color: #FFFFFF;
+    padding: 1em;
+    text-align: center;
+}
+
+
+
+#padding {
+    display: block;
+    margin: 10px 0;
+}
+
+/* idk what this is LOL */
+/* --------------------------------------------------- this stuff is for index.html (makes the letters pop out slowly and seperately ----------------------------------*/
+
+
+
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-box {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #18453B;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0F3B2E;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #ffffff;
+    transform: scale(1.2);
+}
+
+.closeBtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.openBtn {
+    font-size: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #18453B;
+    border: 5px solid grey;
+    border-radius: 5px;
+    transition: all 0.3s;
+    outline: none;
+    /* Adjusting for top-left corner placement */
+    position: absolute; /* or 'fixed' depending on use case */
+    top: 0;
+    left: 0;
+    transform: translate(0, 0); /* Adjust as needed for exact positioning */
+}
+
+
+.openBtn:hover {
+    background-color: #205B4E;
+}
+
+.openBtn:active {
+    box-shadow: 0 2px #ffffff;
+    transform: translateY(2px);
+}
+.center-container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center-align children horizontally */
+    justify-content: center; /* Center-align children vertically if needed */
+}
+
+.link-container {
+    width: 500px; /* Set a fixed width */
+    height: 70px; /* Set a fixed height */
+    margin: 10px; /* Add some space between the links */
+    display: flex;
+    justify-content: center; /* Center the link horizontally */
+    align-items: center; /* Center the link vertically */
+}

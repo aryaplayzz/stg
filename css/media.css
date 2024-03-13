@@ -1,0 +1,107 @@
+
+/* For Mobile Devices – 320px — 480px */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* Your styles for mobile devices go here */
+    .intro-text {
+        font-size: 75%;
+    }
+    .main-nav {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center;
+    }
+
+    .nav-link {
+        margin: 0.5em 0; /* Add some spacing between links */
+        text-align: center;
+    }
+    div.polaroid {
+        width: 50%;
+    }
+    #skipInstruction {
+        bottom: 5px; /* Adjust the bottom spacing for smaller screens */
+        left: 5px; /* Adjust the left spacing for smaller screens */
+        font-size: 1px; /* Adjust the font size for smaller screens */
+    }
+}
+
+
+  
+  /* iPads and Tablets – 481px — 768px */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* Your styles for iPads and tablets go here */
+    .intro-text {
+        font-size: 75%;
+    }
+    .main-nav {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center;
+    }
+
+    .nav-link {
+        margin: 0.5em 0; /* Add some spacing between links */
+        text-align: center;
+    }
+    div.polaroid {
+        width: 50%;
+    }
+    #skipInstruction {
+        bottom: 10px; /* Adjust the bottom spacing for smaller screens */
+        left: 10px; /* Adjust the left spacing for smaller screens */
+        font-size: 5px; /* Adjust the font size for smaller screens */
+    }
+  
+}
+  
+  /* Laptops and small screens – 769px — 1024px */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Your styles for laptops and small screens go here */
+    .intro-text {
+        font-size: 100%;
+  }
+    .main-nav {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .nav-link {
+        margin: 0.5em 0; /* Add some spacing between links */
+        text-align: center;
+    }
+    div.polaroid {
+        width: 10%;
+    }
+    #skipInstruction {
+        bottom: 10px; /* Adjust the bottom spacing for smaller screens */
+        left: 10px; /* Adjust the left spacing for smaller screens */
+        font-size: 5px; /* Adjust the font size for smaller screens */
+    }
+  
+  }
+  
+  /* Large screens and Desktops – 1025px — 1200px */
+  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    /* Your styles for large screens and desktops go here */
+    .intro-text {
+        font-size: 100%;
+  }
+
+    .main-nav {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center;
+    }
+
+    .nav-link {
+        margin: 0.5em 0; /* Add some spacing between links */
+        text-align: center;
+    }
+    div.polaroid {
+        width: 70%;
+    }
+
+    #skipInstruction {
+        bottom: 20px; /* Adjust the bottom spacing for smaller screens */
+        left: 20px; /* Adjust the left spacing for smaller screens */
+        font-size: 10px; /* Adjust the font size for smaller screens */
+    }
+
+
+}

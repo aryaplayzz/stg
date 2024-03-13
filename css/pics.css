@@ -1,0 +1,53 @@
+div.polaroid {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto 25px; /* Center the div horizontally and add margin-bottom */
+}
+
+div.polaroid img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+  
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.image-container {
+    width: 50%; 
+    height: 50%; 
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+
+.pdf-link {
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+    width: 100%; /* Make the link fill the container */
+    height: 100%; /* Make the link fill the container */
+    line-height: 50px; /* Align text vertically */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.pdf-link:hover {
+    transform: scale(1.05);
+    background-color: #e0e0e0;
+}
+
+
+
+.pdf-link img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px; /* Add some space between the image and the text */
+}
