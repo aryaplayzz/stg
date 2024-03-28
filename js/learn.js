@@ -18,9 +18,6 @@ document.querySelectorAll('.service-box').forEach(box => {
             case 'arya':
                 window.location.href = 'arya.html'; // Redirect to arya page
                 break;
-            case 'jordan':
-                window.location.href = 'jordan.html'; // Redirect to jordan page
-                break;
             case 'gavin':
                 window.location.href = 'gavin.html'; // Redirect to gavin page
                 break;
