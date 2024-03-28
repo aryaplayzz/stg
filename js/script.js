@@ -60,3 +60,46 @@ function openNav() {
 function closeNav() {
     document.getElementById("overlayNav").style.width = "0%";
 }
+
+const apiKey = 'pk_ea55e85b6f02493c9354f4bc8f7728ef';
+const symbol = 'SPY'; // Example: Apple Inc.
+
+function fetchStockData() {
+    const url = `https://cloud.iexapis.com/stable/stock/${symbol}/chart/1m?token=${apiKey}`;
+
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            const chartData = data.map(item => {
+                return [
+                    new Date(item.date).getTime(), // the date
+                    item.close // close price
+                ];
+            });
+
+            createChart(chartData);
+        })
+        .catch(error => console.error('Error fetching stock data:', error));
+}
+
+function createChart(data) {
+    Highcharts.stockChart('stockChart', {
+        rangeSelector: {
+            selected: 1
+        },
+
+        title: {
+            text: `${symbol} Stock Price`
+        },
+
+        series: [{
+            name: symbol,
+            data: data,
+            tooltip: {
+                valueDecimals: 2
+            }
+        }]
+    });
+}
+
+fetchStockData();
