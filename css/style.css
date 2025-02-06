@@ -100,9 +100,87 @@ body {
 
 .section-description {
     color: #636363;
-    text-align: center;
     font-size: 18px; /* Adjust font size for smaller screens */
+    max-width: 800px; /* Restrict width for better readability */
+    margin: 0 auto; /* Center the text block */
+    padding: 10px 20px; /* Add some padding for spacing */
+    line-height: 1.6; /* Improve readability */
+    border: 2px solid #0B9A6D; /* Add this line to set green borders */
+
+
 }
+
+.left-side-of-page {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 2em;
+    margin: 2em 0;
+    border-radius: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+.center-side-of-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    margin: 2em 0;
+    border-radius: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+.right-side-of-page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Adjust this based on your layout */
+    padding: 2em;
+    margin: 2em 0;
+    border-radius: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.section-description-center {
+    dispaly: block;
+    text-align: center;
+    color: #0B9A6D;
+    font-size: 18px; /* Adjust font size for smaller screens */
+    max-width: 800px; /* Restrict width for better readability */
+    margin: 0 auto; /* Center the text block */
+    padding: 10px 20px; /* Add some padding for spacing */
+    line-height: 1.6; /* Improve readability */
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Ensures left and right sections are on opposite sides */
+    padding: 2em;
+}
+
+
+.right-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the text horizontally */
+    width: 100%;
+}
+
+.right-text {
+    position: absolute;
+    top: -20px; /* Moves it above Introduction */
+    left: 50%; /* Moves to center */
+    transform: translateX(-50%); /* Ensures exact centering */
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
 
 
 .bottom-text {
