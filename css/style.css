@@ -1,365 +1,257 @@
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #FFFFFF;
-    grid-template-rows: 1fr auto; 
-    min-height: 100vh;
- }
- 
- 
- 
- 
- .round-corners {
-    border-radius: 25px;
-    background: #73AD21;
-    padding: 20px;
-    width: 200px;
-    height: 150px;
- }
- 
- 
- 
- 
- .section-list {
-    color: #0B9A6D;
-    text-align: center;
-    font-size: 20px;
- }
- 
- 
- .header {
-    background: #18453B;
-    color: grey;
-    padding: 2em;
-    text-align: center;
- }
- 
- 
- .header-title {
-    color: #FFFFFF;
-    text-align: center;
- }
- 
- 
- .header-description {
-    color: #FFFFFF;
-    text-align: center;
- }
- 
- 
- .main-nav {
-    background-color: white;
-    color: white;
-    padding: 1em;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    animation: pulse 1.5s normal;
- }
- 
- 
- .nav-link {
-    color: #0B9A6D;
-    text-decoration: none;
-    padding: 0.5em 1em;
-    margin: 0 1em;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    border: 2px solid #0B9A6D; 
-    text-align: center;
- 
- 
- }
- 
- 
- .nav-link:hover {
-    opacity: 60%;
- }
- .main-pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
- }
- 
- 
- 
- 
- .main-section {
-    padding: 2em;
-    margin: 2em 0;
-    border-radius: 20px;
-    animation: fadeIn 2s ease-in-out;
- }
- 
- 
- .centered-link {
-    display: block;
-    text-align: center;
-    margin-bottom: 2em;
-    font-size: 20px;
-    color: grey;
-    text-decoration: none;
- }
- 
- 
- .centered-link:hover {
-    color: green;
- }
- 
- 
- .section-title {
-    color: #3b3b3b;
-    text-align: center;
-    font-size: 25px; 
- }
- 
- 
- .section-description {
-    color: #636363;
-    font-size: 18px; 
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 10px 20px; 
-    line-height: 1.6;
-    border: 2px solid #0B9A6D;
- 
- 
- 
- 
- }
- 
- 
- .left-side-of-page,
- .center-side-of-page,
- .right-side-of-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2em;
-    margin: 2em 0;
-    border-radius: 20px;
-    animation: fadeIn 2s ease-in-out;
- }
- 
- 
- 
- 
- .section-description-center {
-    dispaly: block;
-    text-align: center;
-    color: #0B9A6D;
-    font-size: 18px; 
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 10px 20px;
-    line-height: 1.6; 
-   
- }
- 
- 
- .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 100%;
- }
- 
- 
- 
- 
- 
- 
- .right-section, .left-section {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    width: 100%;
- }
- 
- 
- .right-text, .left-text {
-    position: absolute;
-    top: -20px; 
-    left: calc(50% - 50px);
-    transform: translateX(-50%);
-    font-size: 24px;
-    font-weight: bold;
-    white-space: nowrap;
- }
- 
- 
- 
- 
- 
- 
- .bottom-text {
-    background: #18453B;
-    color: #FFFFFF;
-    padding: 1em;
-    text-align: center;
- }
- 
- 
- 
- 
- 
- 
- #padding {
-    display: block;
-    margin: 10px 0;
- }
- 
- 
- /* idk what this is LOL */
- /* --------------------------------------------------- this stuff is for index.html (makes the letters pop out slowly and seperately ----------------------------------*/
- 
- 
- 
- 
- 
- 
- .hero-section {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #f8f9fa;
- }
- 
- 
- h1 {
-    margin-bottom: 40px;
-    color: #333;
- }
- 
- 
- .services {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
- }
- 
- 
- .service-box {
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    background-color: #18453B;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
- }
- 
- 
- 
- 
- .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #0F3B2E;
-    overflow-x: hidden;
-    transition: 0.5s;
- }
- 
- 
- .overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
- }
- 
- 
- .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
- }
- 
- 
- .overlay a:hover, .overlay a:focus {
-    color: #ffffff;
-    transform: scale(1.2);
- }
- 
- 
- .closeBtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
- }
- 
- 
- 
- 
- .social-icons a {
-    margin: 0 10px;
-    display: inline-block;
- }
- 
- 
- .social-icons img {
-    width: 30px;
-    height: 30px;
- }
- 
- 
- .openBtn {
-    font-size: 20px;
-    padding: 10px 30px;
-    cursor: pointer;
-    background-color: #ffffff;
-    color: #18453B;
-    border: 5px solid grey;
-    border-radius: 5px;
-    transition: all 0.3s;
-    outline: none;
-    position: absolute; 
-    top: 0;
-    left: 0;
-    transform: translate(0, 0); 
- }
- 
- .openBtn:hover {
-    background-color: #205B4E;
- }
- 
- 
- .openBtn:active {
-    box-shadow: 0 2px #ffffff;
-    transform: translateY(2px);
- }
- .center-container {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center;
- }
- 
- 
- .link-container {
-    width: 500px;
-    height: 70px;
-    margin: 10px;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    flex-direction: column; 
-    margin-left: -50px;
- 
- 
- }
- 
- 
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background: #FFFFFF;
+   grid-template-rows: 1fr auto;
+   min-height: 100vh;
+}
+.round-corners {
+   border-radius: 25px;
+   background: #73AD21;
+   padding: 20px;
+   width: 200px;
+   height: 150px;
+}
+.section-list {
+   color: #0B9A6D;
+   text-align: center;
+   font-size: 20px;
+}
+.header {
+   background: #18453B;
+   color: grey;
+   padding: 2em;
+   text-align: center;
+}
+.header-title {
+   color: #FFFFFF;
+   text-align: center;
+}
+.header-description {
+   color: #FFFFFF;
+   text-align: center;
+}
+.main-nav {
+   background-color: white;
+   color: white;
+   padding: 1em;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   animation: pulse 1.5s normal;
+}
+.nav-link {
+   color: #0B9A6D;
+   text-decoration: none;
+   padding: 0.5em 1em;
+   margin: 0 1em;
+   border-radius: 5px;
+   transition: background-color 0.3s;
+   border: 2px solid #0B9A6D;
+   text-align: center;
+}
+.nav-link:hover {
+   opacity: 60%;
+}
+.main-pic {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 10%;
+}
+.main-section {
+   padding: 2em;
+   margin: 2em 0;
+   border-radius: 20px;
+   animation: fadeIn 2s ease-in-out;
+}
+.centered-link {
+   display: block;
+   text-align: center;
+   margin-bottom: 2em;
+   font-size: 20px;
+   color: grey;
+   text-decoration: none;
+}
+.centered-link:hover {
+   color: green;
+}
+.section-title {
+   color: #3b3b3b;
+   text-align: center;
+   font-size: 25px;
+}
+.section-description {
+   color: #636363;
+   font-size: 18px;
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 10px 20px;
+   line-height: 1.6;
+   border: 2px solid #0B9A6D;
+}
+.left-side-of-page,
+.center-side-of-page,
+.right-side-of-page {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 2em;
+   margin: 2em 0;
+   border-radius: 20px;
+   animation: fadeIn 2s ease-in-out;
+}
+.section-description-center {
+   dispaly: block;
+   text-align: center;
+   color: #0B9A6D;
+   font-size: 18px;
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 10px 20px;
+   line-height: 1.6;
+ 
+}
+.container {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   width: 100%;
+}
+.right-section, .left-section {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+}
+.right-text, .left-text {
+   position: absolute;
+   top: -20px;
+   left: calc(50% - 50px);
+   transform: translateX(-50%);
+   font-size: 24px;
+   font-weight: bold;
+   white-space: nowrap;
+}
+.bottom-text {
+   background: #18453B;
+   color: #FFFFFF;
+   padding: 1em;
+   text-align: center;
+}
+#padding {
+   display: block;
+   margin: 10px 0;
+}
+/* idk what this is LOL */
+/* --------------------------------------------------- this stuff is for index.html (makes the letters pop out slowly and seperately ----------------------------------*/
+.hero-section {
+   text-align: center;
+   padding: 50px 20px;
+   background-color: #f8f9fa;
+}
+h1 {
+   margin-bottom: 40px;
+   color: #333;
+}
+.services {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+.service-box {
+   width: 100px;
+   height: 100px;
+   line-height: 100px;
+   background-color: #18453B;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.overlay {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: #0F3B2E;
+   overflow-x: hidden;
+   transition: 0.5s;
+}
+.overlay-content {
+   position: relative;
+   top: 25%;
+   width: 100%;
+   text-align: center;
+   margin-top: 30px;
+}
+.overlay a {
+   padding: 8px;
+   text-decoration: none;
+   font-size: 36px;
+   color: #818181;
+   display: block;
+   transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+   color: #ffffff;
+   transform: scale(1.2);
+}
+.closeBtn {
+   position: absolute;
+   top: 20px;
+   right: 45px;
+   font-size: 60px;
+}
+.social-icons a {
+   margin: 0 10px;
+   display: inline-block;
+}
+.social-icons img {
+   width: 30px;
+   height: 30px;
+}
+.openBtn {
+   font-size: 20px;
+   padding: 10px 30px;
+   cursor: pointer;
+   background-color: #ffffff;
+   color: #18453B;
+   border: 5px solid grey;
+   border-radius: 5px;
+   transition: all 0.3s;
+   outline: none;
+   position: absolute;
+   top: 0;
+   left: 0;
+   transform: translate(0, 0);
+}
+.openBtn:hover {
+   background-color: #205B4E;
+}
+.openBtn:active {
+   box-shadow: 0 2px #ffffff;
+   transform: translateY(2px);
+}
+.center-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.link-container {
+   width: 500px;
+   height: 70px;
+   margin: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-left: -50px;
+}
+
