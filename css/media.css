@@ -1,225 +1,107 @@
-/* ------------------------------------------------
-  MOBILE VIEW: PHONES (320px - 480px)
---------------------------------------------------- */
-@media only screen and (max-width: 480px) {
-    body {
-        font-size: 16px;
+
+/* For Mobile Devices – 320px — 480px */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* Your styles for mobile devices go here */
+    .intro-text {
+        font-size: 75%;
     }
- 
- 
-    .container,
-    .right-section,
-    .left-section,
-    .right-side-of-page,
-    .left-side-of-page {
-        display: flex;
-        flex-direction: column; /* Stacks content vertically */
-        align-items: center;
-        width: 100%;
-    }
- 
- 
-    .right-text, .left-text {
-        position: relative;
-        text-align: center;
-        font-size: 22px; /* Adjust heading size */
-        margin-bottom: 10px;
-    }
- 
- 
-    .link-container {
-        width: 90%; /* Make links take full width */
-        margin: 10px auto;
+    .main-nav {
+        flex-direction: column; /* Stack items vertically */
         text-align: center;
     }
- 
- 
-    .pdf-link {
-        display: flex;
-        align-items: center; /* Center text vertically */
-        justify-content: center; /* Center everything horizontally */
-        font-size: 16px;
-        gap: 10px; /* Space between icon and text */
-    }
- 
- 
-    .pdf-link img {
-        width: 40px; /* Resize images for mobile */
-        height: auto;
-    }
- 
- 
-    .header {
-        padding: 1em;
+
+    .nav-link {
+        margin: 0.5em 0; /* Add some spacing between links */
         text-align: center;
     }
- 
- 
-    .main-section {
-        padding: 1em;
-        margin: 1em 0;
+    div.polaroid {
+        width: 50%;
     }
- 
- 
-    .openBtn {
-        font-size: 18px;
-        padding: 8px 25px;
+    #skipInstruction {
+        bottom: 5px; /* Adjust the bottom spacing for smaller screens */
+        left: 5px; /* Adjust the left spacing for smaller screens */
+        font-size: 1px; /* Adjust the font size for smaller screens */
     }
- 
- 
-    .bottom-text {
-        font-size: 14px;
+}
+
+
+  
+  /* iPads and Tablets – 481px — 768px */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* Your styles for iPads and tablets go here */
+    .intro-text {
+        font-size: 75%;
     }
- }
- 
- 
- /* ------------------------------------------------
-   TABLET VIEW: IPADS & SMALL TABLETS (481px - 768px)
- --------------------------------------------------- */
- @media only screen and (min-width: 481px) and (max-width: 768px) {
-    body {
-        font-size: 18px;
+    .main-nav {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center;
     }
- 
- 
-    .container,
-    .right-section,
-    .left-section,
-    .right-side-of-page,
-    .left-side-of-page {
-        display: flex;
-        flex-direction: column; /* Ensure vertical stacking */
-        align-items: center;
-        width: 100%;
+
+    .nav-link {
+        margin: 0.5em 0; /* Add some spacing between links */
+        text-align: center;
     }
- 
- 
-    .right-text, .left-text {
-        font-size: 24px;
+    div.polaroid {
+        width: 50%;
     }
- 
- 
-    .link-container {
-        width: 80%; /* Adjust for tablet size */
+    #skipInstruction {
+        bottom: 10px; /* Adjust the bottom spacing for smaller screens */
+        left: 10px; /* Adjust the left spacing for smaller screens */
+        font-size: 5px; /* Adjust the font size for smaller screens */
     }
- 
- 
-    .pdf-link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 18px;
-        gap: 12px;
+  
+}
+  
+  /* Laptops and small screens – 769px — 1024px */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Your styles for laptops and small screens go here */
+    .intro-text {
+        font-size: 100%;
+  }
+    .main-nav {
+        flex-direction: column; /* Stack items vertically */
     }
- 
- 
-    .pdf-link img {
-        width: 50px;
+
+    .nav-link {
+        margin: 0.5em 0; /* Add some spacing between links */
+        text-align: center;
     }
- 
- 
-    .header {
-        padding: 1.5em;
+    div.polaroid {
+        width: 10%;
     }
- 
- 
-    .main-section {
-        padding: 1.5em;
+    #skipInstruction {
+        bottom: 10px; /* Adjust the bottom spacing for smaller screens */
+        left: 10px; /* Adjust the left spacing for smaller screens */
+        font-size: 5px; /* Adjust the font size for smaller screens */
     }
- 
- 
-    .openBtn {
-        font-size: 20px;
-        padding: 10px 30px;
+  
+  }
+  
+  /* Large screens and Desktops – 1025px — 1200px */
+  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    /* Your styles for large screens and desktops go here */
+    .intro-text {
+        font-size: 100%;
+  }
+
+    .main-nav {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center;
     }
- 
- 
-    .bottom-text {
-        font-size: 16px;
+
+    .nav-link {
+        margin: 0.5em 0; /* Add some spacing between links */
+        text-align: center;
     }
- }
- 
- 
- /* ------------------------------------------------
-   SMALL LAPTOPS / DESKTOPS (769px - 1024px)
- --------------------------------------------------- */
- @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    body {
-        font-size: 20px;
+    div.polaroid {
+        width: 70%;
     }
- 
- 
-    .container {
-        flex-direction: row; /* Keep it horizontal for laptops */
-        justify-content: space-between;
+
+    #skipInstruction {
+        bottom: 20px; /* Adjust the bottom spacing for smaller screens */
+        left: 20px; /* Adjust the left spacing for smaller screens */
+        font-size: 10px; /* Adjust the font size for smaller screens */
     }
- 
- 
-    .right-section, .left-section {
-        width: 48%;
-    }
- 
- 
-    .pdf-link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 20px;
-        gap: 14px;
-    }
- 
- 
-    .pdf-link img {
-        width: 60px;
-    }
- 
- 
-    .openBtn {
-        font-size: 22px;
-    }
- 
- 
-    .bottom-text {
-        font-size: 18px;
-    }
- }
- 
- 
- /* ------------------------------------------------
-   LARGE SCREENS & DESKTOPS (1025px+)
- --------------------------------------------------- */
- @media only screen and (min-width: 1025px) {
-    .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
- 
- 
-    .right-section, .left-section {
-        width: 45%;
-    }
- 
- 
-    .pdf-link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 22px;
-        gap: 16px;
-    }
- 
- 
-    .pdf-link img {
-        width: 70px;
-    }
- 
- 
-    .bottom-text {
-        font-size: 20px;
-    }
- }
- 
- 
- 
- 
+
+
+}
