@@ -3,7 +3,6 @@
     overflow: hidden;
 }
 
-
 .intro-container {
     position: absolute;
     top: 50%;
@@ -12,42 +11,40 @@
     text-align: center;
 }
 
-.intro-text {
-    font-size: 2em;
-    color: #18453B;
-    margin: 0;
-    padding: 20px;
-    white-space: nowrap;
-    overflow: hidden;
+.intro-logo {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
 }
 
-.intro-text span {
-    display: inline-block;
-    opacity: 0;
-    transform: translateY(1em);
-    transition: opacity 0.5s, transform 0.5s;
-}
-.intro-text span {
-    --index: 0;
-    animation: popUp 0.5s ease-out both calc(0.1s + 0.15s * var(--index));
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 #skipButton {
     position: fixed;
     bottom: 10px;
     left: 10px;
-    font-size: 12px; /* Adjust the font size as needed */
-    background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
-    border: none; /* No border */
-    padding: 10px 20px; /* Padding */
-    font-size: 16px; /* Larger font size */
-    cursor: pointer; /* Cursor style on hover */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
-    transition: background-color 0.3s; /* Smooth background color transition */
+    font-size: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
 }
 
 #skipButton:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049;
 }
