@@ -26,6 +26,16 @@ document.querySelectorAll('.service-box').forEach(box => {
                 break;
             case 'aidan':
                 window.location.href = 'aidan.html'; // Redirect to aidan page
+                break;
+            case 'gabe':
+                window.location.href = 'gabe.html'; // Redirect to gabe page
+                break;
+            case 'lilia':
+                window.location.href = 'lilia.html'; // Redirect to lilia page
+                break;
+            case 'buster':
+                window.location.href = 'buster.html'; // Redirect to buster page
+                break;
             default:
                 console.error('Service not found');
         }
