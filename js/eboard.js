@@ -36,6 +36,9 @@ document.querySelectorAll('.service-box').forEach(box => {
             case 'buster':
                 window.location.href = 'buster.html'; // Redirect to buster page
                 break;
+            case 'peter':
+                window.location.href = 'peter.html'; // Redirect to luna page
+                break;
             default:
                 console.error('Service not found');
         }
